@@ -8,8 +8,8 @@ import Destinations from "./../components/Templates/Destinations/Destinations";
 import HeroSection from "./../components/Templates/HomeHero/HeroSection";
 import Services from "./../components/Templates/Services/Services";
 import Steps from "./../components/Templates/Steps/Steps";
-import Testimonial from "../components/Templates/testimonial/testimonial";
-import PricingSection from "./../components/Templates/pricing/PricingCard";
+import Testimonial from "../components/Templates/testimonial/Testimonial";
+import PricingSection from "../components/Templates/Pricing/PricingCard";
 function App() {
   // const { hash } = window.location;
   // useEffect(() => {
@@ -20,7 +20,7 @@ function App() {
   // }, [hash]);
   return (
     <Layout>
-      <Container>
+      <Container className="overflow-visible">
         <HeroSection />
         <Services />
         <Destinations />
