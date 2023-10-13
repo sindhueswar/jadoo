@@ -1,7 +1,6 @@
 import React, { useState, useRef } from "react";
 import { motion, useCycle } from "framer-motion";
-// import Snackbar from "./Snackbar";
-import Container from "../Container/Container";
+import Container from "../Container/ContainerLayout";
 
 const Header = () => {
   const [isLanguageDropdownOpen, setIsLanguageDropdownOpen] = useState(false);
@@ -101,7 +100,7 @@ const Header = () => {
   };
 
   return (
-    <Container>
+    <Container >
       <header className="sticky top-0 flex  justify-between 2xl:justify-around xl:pl-24 xl:pr-10 items-center pt-10">
         <Logo />
         <div className="hidden lg:flex justify-between items-center">
