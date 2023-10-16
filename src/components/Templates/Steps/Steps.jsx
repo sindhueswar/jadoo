@@ -145,7 +145,7 @@ const ImageSection = () => {
       offset={{ bottom: 300 }}
     >
       <div className="relative min-h-[300px] md:h-full">
-      <svg width="654" height="667" viewBox="0 0 654 667" fill="none" xmlns="http://www.w3.org/2000/svg" className="absolute -top-16">
+      <svg width="654" height="667" viewBox="0 0 654 667" fill="none" xmlns="http://www.w3.org/2000/svg" className="absolute -top-14">
 <g opacity="0.8" filter="url(#filter0_f_1_189)">
 <ellipse cx="327" cy="333.5" rx="177" ry="183.5" fill="#59B1E6"/>
 </g>
