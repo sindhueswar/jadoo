@@ -11,10 +11,11 @@ import Date from "./../../../assets/steps/date.svg";
 import TopImage from "./../../../assets/steps/topImage.Webp";
 import BottomImage from "./../../../assets/steps/bottomImage.Webp";
 import StepItem from "./StepItem";
-import { steps } from "./../../../constants/content";
+
 import Image from "next/image";
 const Steps = () => {
   const [visible, setVisible] = useState(false);
+
   return (
     <>
       <ReactVisibilitySensor
@@ -62,7 +63,25 @@ const StepsSection = () => {
     show: {
       transition: { staggerChildren: 0.5 },
     },
+    
   };
+  const steps = [
+    {
+      step: "Choose Destination",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus. ",
+    },
+    {
+      step: "Make Payment",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus. ",
+    },
+    {
+      step: "Reach Airport on Selected Date",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus. ",
+    },
+  ];
   return (
     <ReactVisibilitySensor
       partialVisibility

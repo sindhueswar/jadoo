@@ -39,7 +39,7 @@ const PricingCard = ({ title, price, features }) => {
           What’s included :
         </div>
         {features.map((feature, index) => (
-          <div key={index} className="text-primaryLight font-bold text-sm mb-5 inline-block font-poppins px-4 ">
+          <div key={index} className="text-primaryLight font-bold text-sm mb-1 inline-block font-poppins px-4 ">
             {feature}
           </div>
         ))}

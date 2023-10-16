@@ -82,19 +82,6 @@ const Footer = () => {
                       <motion.div
                         className="group text-primaryLight font-semibold py-1 w-fit mx-auto cursor-pointer"
                         key={i}
-                        variants={{
-                          hidden: {
-                            y: 200,
-                            opacity: 0,
-                          },
-                          show: {
-                            y: 0,
-                            opacity: 1,
-                            transition: {
-                              duration: 1,
-                            },
-                          },
-                        }}
                       >
                         {link}
                         <div className="bg-primaryLight w-0 transition-all duration-300 h-[1px] group-hover:w-full"></div>
@@ -252,7 +239,7 @@ const Footer = () => {
           </Container>
         </div>
       </ReactVisibilitySensor>
-      <div className="text-center font-poppins text-sm ">
+      <div className="text-center font-poppins font-semi-normal text-sm text-primaryLight">
         All rights reserved@jadoo.co
       </div>
     </>

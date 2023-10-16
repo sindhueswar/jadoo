@@ -35,7 +35,7 @@ const Contact = () => {
                 offers about Cobham
               </h4>
               <div className="flex flex-col sm:flex-row  items-center max-w-2xl gap-y-8 mx-auto justify-center gap-x-7 pt-20 ">
-                <div className="relative w-full sm:w-[400px] shadow-lg rounded-lg mb-2  bg-white  flex items-center">
+                <div className="relative w-full sm:w-[400px]  rounded-lg mb-2  bg-white  flex items-center z-10">
                   <svg
                     width="21"
                     height="18"
@@ -79,7 +79,7 @@ const Contact = () => {
                 </div>
               </div>
               <div className="absolute right-0 top-0   sm:block hidden">
-                {/* <img src={RightDecor} loading="lazy" /> */}
+              
                 <svg
                   width="203"
                   height="274"
@@ -134,7 +134,7 @@ const Contact = () => {
                   viewBox="0 0 374 276"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
-                  className="opacity-10"
+                  className="opacity-10 z-0"
                 >
                   <path
                     d="M130.505 368.92C61.1724 368.92 4.9658 312.635 4.9658 243.202C4.9658 173.769 61.1724 117.484 130.505 117.484C199.838 117.484 256.045 173.769 256.045 243.202C256.045 312.635 199.838 368.92 130.505 368.92Z"

@@ -78,7 +78,7 @@ const DestinationCardSection = () => {
       <motion.div
         variants={container}
         animate={visible ? "show" : "hidden"}
-        className="grid  md:grid-cols-2 gap-y-10 lg:grid-cols-3 gap-x-5 pt-20 py-10 max-w-6xl mx-auto "
+        className="grid  md:grid-cols-2 gap-y-10 lg:grid-cols-3 pt-20 py-10 max-w-6xl mx-auto "
       >
         {destinations.map((destination, i) => (
           <DestinationCard

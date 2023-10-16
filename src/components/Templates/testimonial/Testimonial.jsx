@@ -130,9 +130,9 @@ function TestimonyCard({ index, increased }) {
             className="-ml-14 -mt-6 w-14 h-14"
           />         
           <div className="flex flex-col justify-center gap-6 w-fit">
-        <q className="text-primaryLight font-bold text-sm mb-5 inline-block font-poppins ">
-        {Testimonies[index].testimony}
-        </q>
+        <p className="text-primaryLight font-bold text-sm mb-5 inline-block font-poppins ">
+        &quot;{Testimonies[index].testimony}&quot;
+        </p>
         <div className="flex flex-col gap-2">
           <h4 className="text-primaryDark text-sm font-bold font-volkhov">
           {Testimonies[index].name}
@@ -144,7 +144,7 @@ function TestimonyCard({ index, increased }) {
       </div>
         </motion.div>
         <motion.div
-          className=" rounded-[10px] bg-white px-3 md:px-8 w-full max-w-[600px] pb-2 md:pb-9 border border-gray-600 relative lead"
+          className=" rounded-[10px] bg-white px-3 md:px-8 w-full max-w-[600px] pb-2 md:pb-9 border  relative lead"
           initial={{ x: 0, y: -200,zIndex:10 }}
           animate={{ x: 50, y: -146,zIndex:1 }}        >
           <Avatar
@@ -152,9 +152,9 @@ function TestimonyCard({ index, increased }) {
             className="-ml-14 -mt-6 w-14 h-14"
           />
            <div className="flex flex-col justify-center gap-6 w-fit">
-        <q className="text-primaryLight font-bold text-sm mb-5 inline-block font-poppins ">
-        {Testimonies[index].testimony}
-        </q>
+        <p className="text-primaryLight font-bold text-sm mb-5 inline-block font-poppins ">
+        &quot;{Testimonies[index].testimony}&quot;
+        </p>
         <div className="flex flex-col gap-2">
           <h4 className="text-primaryDark text-sm font-bold font-volkhov">
           {Testimonies[index].name}
@@ -180,9 +180,9 @@ function TestimonyCard({ index, increased }) {
           className="-ml-14 -mt-6 w-14 h-14"
         />
          <div className="flex flex-col justify-center gap-6 w-fit">
-        <q className="text-primaryLight font-bold text-sm mb-5 inline-block font-poppins ">
+        <p className="text-primaryLight font-bold text-sm mb-5 inline-block font-poppins ">
         &quot;{Testimonies[index].testimony}&quot;
-        </q>
+        </p>
         <div className="flex flex-col gap-2">
           <h4 className="text-primaryDark text-sm font-bold font-volkhov">
           {Testimonies[index].name}
@@ -194,7 +194,7 @@ function TestimonyCard({ index, increased }) {
       </div>
       </motion.div>
       <motion.div
-        className=" rounded-[10px] bg-white px-3 md:px-8 max-w-[600px] pb-2 md:pb-9 border border-gray-600 relative trail"
+        className=" rounded-[10px] bg-white px-3 md:px-8 max-w-[600px] pb-2 md:pb-9 border relative trail"
         initial={{ x: 0, y: -226 ,zIndex:10}}
         animate={{ x: 50, y: -146,zIndex:0 }}      
       >
@@ -203,9 +203,9 @@ function TestimonyCard({ index, increased }) {
           className="-ml-14 -mt-6 w-14 h-14"
         />       
           <div className="flex flex-col justify-center gap-6 w-fit">
-        <q className="text-primaryLight font-bold text-sm mb-5 inline-block font-poppins ">
-       {Testimonies[index].testimony}
-        </q>
+        <p className="text-primaryLight font-bold text-sm mb-5 inline-block font-poppins ">
+        &quot;{Testimonies[index].testimony}&quot;
+        </p>
         <div className="flex flex-col gap-2">
           <h4 className="text-primaryDark text-sm font-bold font-volkhov">
           {Testimonies[index].name}

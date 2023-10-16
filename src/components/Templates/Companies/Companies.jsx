@@ -22,7 +22,7 @@ const Companies = () => {
       >
         <div className="my-20 scroll-mt-24 sm:scroll-mt-10" id="flights">
           <Container>
-            <div className="grid sm:grid-cols-3 lg:grid-cols-5 gap-x-5 max-w-6xl mx-auto items-center ">
+            <div className="grid sm:grid-cols-3 lg:grid-cols-5 gap-x-5 max-w-5xl mx-auto items-center ">
               {Images.map((img, i) => (
                 <motion.div
                   key={i}
