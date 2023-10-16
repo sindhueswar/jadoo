@@ -3,7 +3,7 @@ import './globals.css'
 import { Poppins,Volkhov,Montserrat,Open_Sans} from 'next/font/google';
   const poppins = Poppins({
     variable: '--font-ps', 
-    weight: '700',
+    weight: '500',
     subsets: ['latin'], 
   });const volkhov = Volkhov({
     variable: '--font-vk',
