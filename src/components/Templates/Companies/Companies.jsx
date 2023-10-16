@@ -2,16 +2,16 @@ import React from "react";
 import { useState } from "react";
 import ReactVisibilitySensor from "react-visibility-sensor";
 import { motion } from "framer-motion";
-import Axon from "./../../../assets/companies/Group.svg";
-import Expedia from "./../../../assets/companies/Jetstar logo.svg";
+import Axon from "./../../../assets/companies/axon.svg";
+import Expedia from "./../../../assets/companies/Jetstar.svg";
 import Jetstar from "./../../../assets/companies/expedia.svg";
-import Litalia from "./../../../assets/companies/Group.svg";
-import Qantas from "./../../../assets/companies/Group (1).svg";
+import qantas from "./../../../assets/companies/qantas.svg";
+import alitalia from "./../../../assets/companies/alitalia.svg";
 import Image from "next/image";
 import { scaleVariants } from "./../../../constants/variants.constant";
 import Container from "../../Container/Container";
 const Companies = () => {
-  const Images = [Axon, Jetstar, Litalia, Qantas, Expedia];
+  const Images = [Axon, Jetstar, Expedia, qantas, alitalia];
   const [visible, setVisible] = useState(false);
   return (
     <>
@@ -22,7 +22,7 @@ const Companies = () => {
       >
         <div className="my-20 scroll-mt-24 sm:scroll-mt-10" id="flights">
           <Container>
-            <div className="grid sm:grid-cols-3 lg:grid-cols-5 gap-x-5 max-w-5xl mx-auto items-center ">
+            <div className="grid sm:grid-cols-3 lg:grid-cols-5 gap-x-5 max-w-5xl mx-auto my-3 items-center ">
               {Images.map((img, i) => (
                 <motion.div
                   key={i}

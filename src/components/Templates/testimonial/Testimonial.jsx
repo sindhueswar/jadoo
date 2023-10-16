@@ -228,14 +228,14 @@ function Loader({ index ,className=''}) {
           return (            
               <motion.div
                 key={i}
-                className="w-4 h-4 rounded-full bg-gray-900"
+                className="w-2.5 h-2.5 rounded-full bg-gray-900"
                 layout
               />
           );
         }
         return (
           <motion.div
-            className={"bg-gray-300 h-4 w-4 rounded-full"}
+            className="bg-gray-300 h-2.5 w-2.5 rounded-full"
             key={i}
             layout
           ></motion.div>

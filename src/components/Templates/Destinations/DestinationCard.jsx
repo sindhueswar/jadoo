@@ -16,7 +16,7 @@ const DestinationCard = ({ img, title, price, duration }) => {
     <motion.div
       variants={item}
       transition={{ duration: 1 }}
-      className='sm:w-[300px] mx-auto bg-white shadow-xl rounded-[20px] scale-100 '
+      className='sm:w-[300px] mx-auto bg-white shadow-xl rounded-[20px] scale-100 z-10 '
     >
       <div className='h-[300px] overflow-hidden rounded-tl-[20px] rounded-tr-[20px] '>
         <Image src={img} alt={title} loading="lazy" className="h-full w-full hover:scale-110 transition duration-300 ease-in-out"/>

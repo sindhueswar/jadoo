@@ -25,7 +25,7 @@ const ServiceCard = ({ img, title, details }) => {
       initial='initial'
     >
       <motion.div
-        className='px-5 py-5 pt-0 hover:shadow-lg transition-shadow duration-300 cursor-pointer min-h-[200px] sm:w-[90%] bg-white ml-auto rounded-[36px]'
+        className='px-5 py-5 hover:shadow-lg transition-shadow duration-300 cursor-pointer min-h-[200px] sm:w-[90%] bg-white ml-auto rounded-[36px]'
         variants={serviceCardVariant}
         whileHover='hover'
         initial='initial'
@@ -35,7 +35,7 @@ const ServiceCard = ({ img, title, details }) => {
           <Image src={img} className='mx-auto ' loading="lazy" />
         </div>
         <div className='text-[#1E1D4C] font-bold text-lg font-open-sans'> {title}</div>
-        <p className='text-primaryLight font-medium my-4 font-poppins text-justify'>{details}</p>
+        <p className='text-primaryLight font-medium m-3 font-poppins  tracking-tight leading-tight'>{details}</p>
       </motion.div>
       <div className='sm:block hidden'>
         <motion.div
@@ -49,4 +49,4 @@ const ServiceCard = ({ img, title, details }) => {
 
 export default ServiceCard;
 
-// shadow-[0_1.85px_3.15px_0px_rgba(0,0,0,0)] shadow-[0_1.85px_6.25px_0px_rgba(0,0,0,0.01)]
+
