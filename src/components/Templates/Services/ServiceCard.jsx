@@ -34,7 +34,7 @@ const ServiceCard = ({ img, title, details }) => {
         <div className=' min-h-[154px] flex items-center'>
           <Image src={img} className='mx-auto ' loading="lazy" />
         </div>
-        <div className='text-[#1E1D4C] font-bold text-xl font-open-sans'> {title}</div>
+        <div className='text-[#1E1D4C] font-bold text-lg font-open-sans'> {title}</div>
         <p className='text-primaryLight font-medium my-4 font-poppins text-justify'>{details}</p>
       </motion.div>
       <div className='sm:block hidden'>
