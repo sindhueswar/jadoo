@@ -53,13 +53,13 @@ const Testimonials = () => {
       <Section
         title={"TESTIMONIALS"}
         headText="What People Say About Us."
-        className="lg:col-span-2 "
+        className="text-center lg:text-left px-2 lg:col-span-2 lg:px-0 "
         textAlign="left"
       >
-        <Loader index={testimonials} className="   pt-10 justify-start lg:justify-start lg:pt-14 "/>
+        <Loader index={testimonials} className="   pt-10 justify-center lg:justify-start lg:pt-14 "/>
       </Section>
 
-      <div className="lg:col-span-3 pt-6 pl-6 flex flex-col md:flex-row my-auto ">
+      <div className="p-10 pl-12 col-span-2  lg:col-span-3 lg:pt-6 lg:pl-6 flex flex-col md:flex-row my-auto ">
         <div className="lg:flex-1">
             {TestimonyCards[testimonials]}
         </div>

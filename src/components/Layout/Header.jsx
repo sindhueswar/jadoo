@@ -220,23 +220,23 @@ const hoverMotion = {
 };
 const links = [
   {
-    // href: "#",
+   
     title: "Desitnations",
   },
   {
-    // href: "#",
+
     title: "Hotels",
   },
   {
-    // href: "#",
+  
     title: "Flights",
   },
   {
-    // href: "#",
+   
     title: "Bookings",
   },
   {
-    // href: "#",
+   
     title: "Login",
   },
 ];
@@ -315,7 +315,7 @@ const Navigation = React.memo(() => {
   };
 
   return (
-    <ul className=" flex h-full justify-center flex-col relative top-16">
+    <ul className=" flex h-full justify-center -z-50 flex-col absolute top-1/4 right-0 ">
       {links.map((link, i) => (
         <MenuItem title={link.title} href={link.href} key={i} />
       ))}
@@ -343,7 +343,7 @@ const MenuItem = React.memo(({ href, title }) => {
   };
   return (
     <motion.li
-      className="py-3 text-center bg-white"
+      className="py-3 px-10  text-center bg-white z-50"
       variants={variants}
       whileHover={{ scale: 1.1 }}
       whileTap={{ scale: 0.95 }}

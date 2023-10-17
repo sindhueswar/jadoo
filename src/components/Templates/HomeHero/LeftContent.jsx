@@ -36,14 +36,14 @@ const LeftContent = () => {
           <div className="text-[#DF6951] text-left font-bold uppercase lg:text-xl py-5 font-poppins">
             Best Destinations around the world
           </div>
-          <div className="text-[#181E4B] text-left font-bold  text-[2.5rem] lg:text-[4rem] font-volkhov lg:leading-[5rem]">
-            Travel,{" "}
+          <div className="text-[#181E4B] text-left font-bold text-[2.5rem] md:text-[3.2rem] lg:text-[4rem] font-volkhov lg:leading-[5rem]">
+            Travel,
             <div className="inline-block w-fit md:relative">
-              <span className="relative z-10">enjoy
+              <span className="md:relative z-10">enjoy&nbsp;
               <Image
                 src={HeadingDecor}
                 alt="Heading decor"
-                className="relative w-[250px]  inset-x-0 -top-[1.3rem] -z-10"
+                className=" hidden  md:block relative w-[250px]  inset-x-0 -top-[1.3rem] -z-10 "
                 loading="eager"
               />
               </span>
