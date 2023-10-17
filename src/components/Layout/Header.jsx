@@ -315,7 +315,7 @@ const Navigation = React.memo(() => {
   };
 
   return (
-    <ul className=" flex h-full justify-center -z-50 flex-col absolute top-1/4 right-0 ">
+    <ul className=" flex h-full justify-center -z-50 flex-col absolute  right-0 ">
       {links.map((link, i) => (
         <MenuItem title={link.title} href={link.href} key={i} />
       ))}
